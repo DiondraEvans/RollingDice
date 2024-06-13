@@ -25,6 +25,7 @@ class RollDice extends Component{
         
         return(
             <div className="RollDice">
+                <h1>Let's Play!</h1>
                 <div className="RollDice-container">
                     <Die face={this.state.die1} shaking={this.state.rolling}/>
                     <Die face={this.state.die2} shaking={this.state.rolling} />
